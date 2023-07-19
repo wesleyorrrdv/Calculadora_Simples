@@ -6,18 +6,18 @@ class main() {
 
     }
 
-    fun sub(c:Int,d:Int):Int{
-        return c - d
+    fun sub(a:Int,b:Int):Int{
+        return a - b
     }
 
-    fun mul(e:Int, f:Int):Int{
-        return e * f
+    fun mul(a:Int, b:Int):Int{
+        return a * b
     }
 
-    fun div(g:Int, h:Int):Int{
-        if (h == 0)
+    fun div(a:Int, b:Int):Int{
+        if (b == 0)
             throw IllegalArgumentException("Resutaldo: Zero")
-        return g / h
+        return a / b
     }
 
 }
